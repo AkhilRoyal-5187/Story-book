@@ -3,11 +3,11 @@ import { useState } from 'react';
 
 function Button() {
   const fonts = ['font-sans', 'font-serif', 'font-bold'];
-  const colours = ['bg-[#000000 ]', 'bg-[#ff0000]', 'bg-[#ffe100]'];
+  const colours = ['bg-[#48e5c2 ]', 'bg-[#ff0000]', 'bg-[#6a994e]'];
 
   
   const [selectedFont, setSelectedFont] = useState('font-sans');
-  const [colour , setColour] = useState('bg-gray-950');  
+  const [colour , setColour] = useState('bg-[#48e5c2  ]');  
   const [toggleFont, setToggleFont] = useState('font-sans');
   const [toggleColour, setToggleColour] = useState('bg-gray-950');
 
