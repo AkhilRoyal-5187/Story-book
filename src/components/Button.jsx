@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function Button() {
   const fonts = ['font-sans', 'font-serif', 'font-bold'];
-  const colours = ['bg-red-800', 'bg-blue-800', 'bg-green-800'];
+  const colours = ['bg-[#000000 ]', 'bg-[#ff0000]', 'bg-[#ffe100]'];
 
   
   const [selectedFont, setSelectedFont] = useState('font-sans');
@@ -35,13 +35,18 @@ function Button() {
         onClick={handleToggle}
         className={`${toggleColour} rounded border-2 py-2`}
       >
-        <span className={`${toggleFont} ${toggleColour} py-1 ml-6 `}>Toggle  Button</span>
+        <span className={`${toggleFont} ${toggleColour} py-1 px-25 `}>Toggle  Button</span>
       </div>
 
-     <select
+     
+
+      
+
+
+      <select
         value={colour}
         onChange={(e)=>setColour(e.target.value)}
-        className="px-3 py-2 border rounded "
+        className="px-25 py-2 border rounded "
       >
         {colours.map((c) => (
           <option key={c} value={c} className='bg-gray-950'>
@@ -53,7 +58,7 @@ function Button() {
       <select 
       value = {selectedFont}
       onChange={handleFontChange}
-      className='px-3 py-2 border rounded'
+      className='px-25 py-2 border rounded'
       >
         {fonts.map((f)=>(<option key={f} value={f} className='bg-gray-950'>
             {f}
