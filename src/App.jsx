@@ -2,7 +2,7 @@ import Button from './components/Button';
 
 function App() {
   return (
-    <div className="ml-140 md:ml-0" >
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
       <Button />
     </div>
   );

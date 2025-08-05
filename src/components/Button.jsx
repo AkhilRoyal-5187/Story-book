@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function Button() {
   const fonts = ['font-sans', 'font-serif', 'font-bold'];
-  const colours = ['bg-[#48e5c2 ]', 'bg-[#ff0000]', 'bg-[#6a994e]'];
+  const colours = ['bg-[#48e5c2]', 'bg-[#ff0000]', 'bg-[#6a994e]'];
 
   
   const [selectedFont, setSelectedFont] = useState('font-sans');
