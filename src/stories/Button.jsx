@@ -9,7 +9,7 @@ export const Button = ({
   primary = false,
   backgroundColor = null,
   size = 'medium',
-  label, 
+  label,
   ...props
 }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';

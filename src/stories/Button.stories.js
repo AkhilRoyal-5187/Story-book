@@ -28,13 +28,13 @@ export const Primary = {
   },
 };
 
-export const Secondary = {
+export const high = {
   args: {
     label: 'Button',
   },
 };
 
-export const Large = {
+export const xyz = {
   args: {
     size: 'large',
     label: 'Button',
@@ -46,4 +46,11 @@ export const Small = {
     size: 'small',
     label: 'Button',
   },
+};
+
+export const Dummy = {
+  args: {
+    label: "Button",
+    size: "small"
+  }
 };
