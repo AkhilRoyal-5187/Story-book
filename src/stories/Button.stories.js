@@ -37,7 +37,7 @@ export const high = {
 export const xyz = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'Button xyz',
   },
 };
 
@@ -45,6 +45,20 @@ export const Small = {
   args: {
     size: 'small',
     label: 'Button',
+  },
+};
+
+export const Large = {
+  args: {
+    size: 'large',
+    label: 'Large Button',
+  },
+};
+
+export const Medium = {
+  args: {
+    size: 'medium',
+    label: 'medium Button',
   },
 };
 
