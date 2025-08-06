@@ -50,7 +50,7 @@ export const Small = {
 
 export const Dummy = {
   args: {
-    label: "Button",
+    label: "Dummy",
     size: "small"
   }
 };
